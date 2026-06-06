@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+   <title>Commande</title>
+    <link rel="stylesheet"  href="../style/style.css">
+</head>
+
+<body>
+    <header> 
+        <h1>🎨 ArtPro</h1>
+        <p> Le meilleur matériel artistique pour tous les artistes  </p>
+    </header>
+        <nav>
+            <a href="../index.html">Accueil</a>
+            <a href="produit.html">Produits</a>
+        </nav>
+
+    <main class="commande-page">
+        <h1>Finaliser votre commande</h1>
+        <section class="panier-section">
+            <h2>Produits sélectionnés</h2>
+            <div id="panier"> <!-- Produits affichés par JavaScript --> </div>
+            <h3 id="total"> Total : 0 DA </h3>
+        </section>
+
+        <section class="livraison-section">
+            <h2>Informations de livraison</h2>
+            <form id="formCommande">
+                <div class="champ">
+                    <label for="nom">  Nom complet </label>
+                    <input type="text" id="nom" required>
+                </div>
+                <div class="champ">
+                    <label for="email"> Email </label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="champ">
+                    <label for="telephone"> Téléphone </label>
+                    <input  type="tel" id="telephone" required>
+                </div>
+                <div class="champ">
+                    <label for="adresse"> Adresse de livraison</label>
+                    <textarea id="adresse" rows="4" required></textarea>
+                </div>
+                <p id="message"></p>
+                <button  type="submit"  class="btn-commande">  Confirmer la commande </button>
+            </form>
+        </section>
+    </main>
+    <script src="../javascript/commande.js"></script>
+    <script src="../javascript/main.js"></script>
+</body>
+
+</html>

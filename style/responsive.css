@@ -1,0 +1,13 @@
+
+/*tablette*/
+@media screen and (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    nav {
+        gap: 0.5rem;
+    }
+    .principale {
+        padding: 2rem 1rem;
+    }
+}

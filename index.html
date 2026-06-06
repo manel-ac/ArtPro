@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <mata name="description" content="ArtPro est une boutique en ligne 
+    de matériel atristique: crayons,peintures,pinceaux...">
+    <meta name="keywords" content="art, dessin,peinture,crayons,ArtPro,materiel atristique">
+
+    <title>ArtPro</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎨 ArtPro</h1>
+        <p> Le meilleur matériel artistique pour tous les artistes  </p>
+    </header>
+
+    <nav>
+        <a href="content/produit.html">Produits</a>
+        <a href="content/Connexion.html">Connexion</a>
+        <a href="content/Insciption.html">Inscription</a>
+        <a href="content/commande.html">Commande</a>
+    </nav>
+
+    <section class="principale">
+        <h2>Bienvenue chez ArtPro</h2>
+        <div class="image">
+            <img src="images/image acc.jpg">
+        </div>
+
+        <a href="content/produit.html">
+           <button>  Voir nos produits </button>
+        </a>
+
+    </section>
+
+    <section class="produits">
+        <h2>Produits populaires</h2>
+        <div class="carousel-container">
+          <button id="prev" class="fleche"> &#10094; </button>
+            <div id="produits-populaires"></div>
+             <button id="next" class="fleche">  &#10095; </button>
+        </div>
+
+    </section>
+
+    <section class="avantages">
+        <h2>Pourquoi choisir ArtStore ?</h2>
+        <div class="services">
+            <div class="service">
+                <h3>🎨 Qualité Professionnelle</h3>
+                <p> Produits sélectionnés pour artistes débutants   et professionnels.  </p>
+            </div>
+            <div class="service">
+                <h3>🚚 Livraison Rapide</h3>
+                <p>  Livraison partout en Algérie. </p>
+            </div>
+            <div class="service">
+                <h3>💰 Prix Abordables</h3>
+                <p> Les meilleurs prix pour votre matériel artistique.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>   © 2025 ArtStore - Tous droits réservés  </p>
+    </footer>
+     
+
+     <!--Produits-->
+    <script src="javascript/produits.js"></script>
+
+    <!-- Affichage dynamique -->
+    <script src="javascript/main.js"></script>
+
+    <!-- Panier -->
+    <script src="javascript/panier.js"></script>
+
+</body>
+</html>
